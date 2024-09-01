@@ -14,7 +14,7 @@ body{
     background: red;
     overflow: hidden;
     background: url("back5.jpeg") no-repeat center/ cover;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 5px 20px 50px #000;
 }
 #chk{
@@ -45,7 +45,7 @@ input{
     padding: 10px;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 button{
     width: 60%;
