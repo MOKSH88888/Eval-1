@@ -1,0 +1,134 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6f7ff; /* Light blue background color */
+}
+
+ 
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #f0f8ff;
+ }
+
+ .navbar {
+     background-color: #ff7f50;
+     color: white;
+     padding: 15px;
+     text-align: center;
+ }
+
+ .navbar h1 {
+     margin: 0;
+ }
+
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 20px;
+     margin-bottom: 30px;
+     background-color: #f8f8ff;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .image-content {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     max-width: 900px;
+     width: 100%;
+     padding: 20px;
+     margin: 10px;
+     background-color: #e0ffff;
+     border-radius: 12px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .image-content img {
+     width: 30%;
+     height: auto;
+     border-radius: 8px;
+     margin-right: 20px;
+     border: 2px solid #ffb6c1;
+ }
+
+ .image-content h2 {
+     color: #333;
+     margin-bottom: 15px;
+     font-size: 1.5rem;
+ }
+
+ .image-content ul {
+     list-style-type: disc;
+     padding-left: 20px;
+     margin: 0 0 20px 0;
+ }
+
+ .image-content ul li {
+     margin-bottom: 10px;
+     font-size: 1rem;
+     color: #555;
+ }
+
+ .price {
+     font-size: 1.25rem;
+     color: #ff4500;
+     margin-bottom: 15px;
+     font-weight: bold;
+ }
+
+ .read-more-button {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #20b2aa;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     font-size: 1rem;
+     transition: background-color 0.3s ease;
+ }
+
+ .read-more-button:hover {
+     background-color: #2e8b57;
+ }
+
+ hr {
+     margin-top: 30px;
+     border: 0;
+     border-top: 2px solid #ccc;
+ }
+
+ @media (max-width: 768px) {
+     .image-content {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .image-content img {
+         width: 80%;
+         margin-right: 0;
+         margin-bottom: 15px;
+     }
+
+     .image-content h2 {
+         text-align: center;
+     }
+
+     .image-content ul {
+         padding-left: 0;
+         text-align: center;
+     }
+
+     .read-more-button {
+         text-align: center;
+         display: block;
+         margin: 0 auto;
+     }
+ }
